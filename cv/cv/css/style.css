@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.cloud1 {
+    position: absolute;
+    top: 30px;
+    right: 250px;
+}
+.cloud2 {
+    position: absolute;
+    left:   230px;
+    bottom: 250px;
+}
+.cityscape {
+    width: 100%;
+}
+.img1{
+    border-radius: 50%;
+}
+.img-arch {
+    width: 60%;
+}
+.top{
+    background-color: #EAF6F6;
+    position: relative;
+    padding: 200px 0 0 0;
+}
+.middle{
+    background-color: rgb(214, 235, 239);
+    position: relative;
+    padding: 200px 0 0 0;
+    margin:auto;
+}
+.bottom{
+    background-color: #ebe6ec;
+    position:relative;
+    padding: 5px 0 0 0;
+    margin: 0 auto;
+    clear: both;
+}
+.contact-top{
+    background-color: azure;
+    padding: 20px 0;
+    border-bottom: solid 1px #c3c3c3;    
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color:antiquewhite;
+    font-size: 5em;
+}
+
+h2{
+    font-family: 'Itim', cursive;
+    color:rgb(21, 218, 228);
+    font-size: 2em;
+}
+
+h3{
+    font-family: 'Itim', cursive;
+    color:rgb(207, 168, 26);
+    font-size: 2em;
+}
+a {
+     text-decoration: none;
+     color: green;
+ 
+    }
+.row{
+    width: 50%;
+    margin: 0 auto;
+}
+.column{
+    display: inline-block;
+}
+.left{
+    float:left;
+    width: 40%;
+    list-style-type: style type circle;
+    text-align: center;
+    /* background-color: black; */
+    height: 200px;
+
+}
+.right{
+    float:right;
+    width: 60%;
+    /* background-color: yellow; */
+    height: 200px;
+}
+.skill_left{
+    float:left;
+    width: 40%;
+    list-style-type: style type circle;
+    text-align: center;
+    /* background-color: black; */
+    height: 200px;
+}
+.skill_right{
+    width: 50%;;
+    /* float:left; */
+    height:100px;
+}
+.clear{
+    clear:both;
+}
+ul{
+    list-style: none;
+}
+hr{
+    border-top: dotted #c3c3c3 8px;
+    border-bottom: none;
+    width: 200px;
+    float: none;
+}
+.box{
+    clear:both;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgb(56, 171, 188);
+    width:40%;
+    border-radius: 5px;
+    background-color:  rgb(153, 158, 158);
+    padding: 25px;
+    margin: 150px auto;
+}
+input,textarea{
+    border:1px solid burlywood;
+    background-color: beige;
+    padding: 15px;
+    width:90%;
+    margin: 12px auto;
+    display:balck;
+}
+textarea{
+    min-height: height 40px;
+}
+btn{
+    background-color: #c3c3c3;
+    width: 30%;
+}
+.background{
+    background-color: rgb(217, 231, 231);
+}
+
+#b {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
